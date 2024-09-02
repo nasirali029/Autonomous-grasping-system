@@ -1,2 +1,5 @@
-# Autonomous-grasping-system
-The project aim to perform computer vision-guided autonomous grasping system, where the rover detects nearby AR-tags (fiducial markers) based objects, determines the most suitable grasping approaches using its robotic arm, plan and execute Motion Planning (MoveIt) to pick-up and place small objects
+# Computer vision-guided autonomous grasping system using Leo Rover equipped with robotic arm.
+The master’s thesis project explores Leo Rover, equipped with a Lidar sensor, stereo camera, and robotic arm, available at University of South-Easten Norway. Leo Rover is a semi-autonomous mobile robot used for research and development purposes using the robot operating system (ROS).
+
+The project aims to develop a computer vision-guided autonomous grasping system, where the rover detects nearby AR-tags (fiducial markers) based objects, determines the most suitable grasping approaches using its robotic arm, plan and execute Motion Planning (MoveIt) to pick-up and place small objects. The rover also performs autonomous navigation, including simultaneous localization and mapping (SLAM).
+Various methods are used including utilization of OpenCV tool for real-time object detection, configuring and integration of rover’s ROS network, testing multiple ROS packages, evaluating rover and its arm’s performance in both simulated and physical environment.
